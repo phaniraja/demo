@@ -1,0 +1,7 @@
+cut -d"-" -f 2,3 players.txt
+in the above command -d is delimiter and - is separater in the text
+
+
+dd if=players.txt of=playersc.txt conv=ucase
+the above command is used for converting dd command if=inputfile of=outputfile conv=command for converting.
+
