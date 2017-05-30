@@ -1,0 +1,45 @@
+---
+  # vars:
+  #   project_name: monitoring
+  #   key: phani_aws
+  #   region: us-west-2
+  #   instance_type: t2.micro
+  #   ami: ami-01f05461
+  #   subnet: subnet-83ed6ae7
+   - name: create ec2 security group
+     ec2_group:
+        name: monitoring
+        description: monitoring
+        region: us-west-2
+        rules:
+          - proto: tcp
+            from_port: 8000
+            to_port: 9000
+            cidr_ip: 0.0.0.0/0
+          - proto: tcp
+            from_port: 22
+            to_port: 22
+            cidr_ip: 0.0.0.0/0
+          - proto: tcp
+            from_port: 3000
+            to_port: 3000
+            cidr_ip: 0.0.0.0/0
+        rules_egress:
+          - proto: all
+            cidr_ip: 0.0.0.0/0
+     register: sg
+   
+   - name: create ec2 instance
+     ec2:
+        key_name: phani_aws
+        region: us-west-2
+        group_id: "{{ sg.group_id }}"
+        instance_type: t2.micro
+        image: ami-01f05461
+        wait: yes
+        instance_tags:
+            Name: monitoring
+        count: 1
+        vpc_subnet_id: subnet-83ed6ae7
+        assign_public_ip: yes
+     register: ec2

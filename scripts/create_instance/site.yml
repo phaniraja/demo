@@ -1,0 +1,13 @@
+---
+ - hosts: 
+      - all
+   roles:
+      - aws 
+ 
+ - hosts: 
+      - tag_Name_monitoring
+   become: true
+   roles:
+      - influxdb
+      - telegraf
+      - grafana

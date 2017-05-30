@@ -1,0 +1,11 @@
+---
+   - name: download deb pckg from internet
+     command: wget https://dl.influxdata.com/telegraf/releases/telegraf_1.1.1_amd64.deb
+
+   - name: depackage telegraf deb file
+     apt:
+       deb: /home/ubuntu/telegraf_1.1.1_amd64.deb
+
+   - name: restart telegraf
+     service: name=telegraf state=restarted
+

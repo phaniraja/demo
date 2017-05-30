@@ -1,0 +1,73 @@
+•	present staying in texas(2 hrs time diff)cst 9 o clk
+•	never say you are masters ,done graduation 
+•	came to us on h1 start date got visa in oct 2013 and came to us in dec 2013(job)
+•	dec 2013 came to us on h1 to att bothwell
+•	when you will be out of project
+•	project
+Ettc Richardson texas,(living green havean dr near dallas univ with friedns)
+Project1
+We mainly deal with  the systems integrator for some of the largest toll collection authorities in the United States. Providing solutions range from toll lanes to hosted computer systems and extend to customer service centers and violation processing,we perform both onsite and remote maintenance services and field operations. And other services we provide- Customer service center operations, Back-office operations, Call centers, Image review and violation processing, Audit and reconciliation staff, Information technology personnel
+About tools
+Devops: devops is an approach to bridge the gap between software development and operations
+Git: version control or repository, commands: git  init ,git status, git add,git push ,git pull
+Vagrant:
+Hands on experience on vagrant 
+•	for creating and configuring the virtual development environments 
+•	And used to test things like shell scripting ,chef/anisble configuration’s and isolated                        deployments 
+•	It is easy to edit files in the host without using editor over ssh
+•	Vagrant suspend-save the current state, vagrant halt-shut down the machine, vagrant destroy –destroys all
+•	Vagrant is good for development machines 
+•	Recent version 1.8.5
+
+
+Configuration management: To maintain consistency of our software configuration (we will create servers and install software’s and maintain the consistency of the configuration)
+Configuration management tools:
+Puppet  - chef - Ansible  -salt stack
+Ansible-
+•	uses ssh 
+•	language python & Yaml
+•	runs on play books
+•	version:anisble 2.0
+
+
+Chef
+•	Chef-server,chef client,chef solo
+•	Language ruby,erb and json
+•	Runs on recipes
+•	Version:  12.8.0
+
+Ant, maven and gradle are packaging tools for java
+Continuous integration :it helps the developer to fix the code if anythings go wrong while testing and build
+Jenkins
+We can install Jenkins using chef/ansible
+•	Provided CM and Build support for  different applications, built and deployed to lower and higher environments. 
+•	Automated the release pipeline to achieve zero touch deployments using Jenkins, GIT
+•	Developed and integrated the deployment process in CI environment using Jenkins.
+•	Created deployment workflows in Jenkins which includes pre release, release and Post release steps
+
+Am having hands on epx on aws,
+•	Managing product development /implementation using AWS cloud infrastructure.
+•	Performing solution architect with development team, AWS service selection, solution design.
+•	Managed the trafiic using elastic load balancer and handled many requests  to control the trafic 
+•	Choosing the instance according the requirements of the project  and monitoring best practices
+•	Hands on Experience on Amazon Web services (AWS) .Create and configured EC2 instances, ELB (Elastic Load balancers), S3, cloud front, Route53, SES,IAM.
+
+
+ELB:
+Elastic Load Balancing automatically scales its request handling capacity to meet the demands of application traffic. Additionally, Elastic Load Balancing offers integration with Auto Scaling to ensure that you have back-end capacity to meet varying levels of traffic levels without requiring manual intervention.
+
+
+
+Client: ETCC - Richardson, TX
+Name: Harin Pagidimunthala 
+Title: Manager
+email: harin.orcl@gmail.com
+
+Client:  ATT, BOTHELL, WA   
+Name: Shanthi Kumar 
+Title: manager
+email:   shanthi9493@gmail.com
+
+Note: Before contacting my references please take my permission. I have to in-turn take my managers availability. Also I can provide the phone numbers only after the end client interview as it is not practical to share the phone numbers for so many submissions in the market. Hope you understand.   
+  
+
