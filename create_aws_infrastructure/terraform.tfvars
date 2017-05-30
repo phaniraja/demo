@@ -1,0 +1,6 @@
+cidr_block="10.0.0.0/16"
+vpc_name="my_vpc"
+public_subnet_name="my_vpc_public"
+private_subnet_name="my_vpc_private"
+route_table_public_name="my_vpc_public"
+route_table_private_name="my_vpc_private"
